@@ -1,13 +1,20 @@
 {
   "name": "img-loader",
   "version": "1.0.0",
-  "description": "",
+  "description": "Img loader for Depmap",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "dependencies": {},
+  "homepage": "https://github.com/depmap/img-loader#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/depmap/img-loader.git"
+  },
+  "author": "Henry Snopek <hhsnopek@gmail.com> (http://hhsnopek.com/)",
   "license": "MIT",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/depmap/img-loader/issues"
   }
 }

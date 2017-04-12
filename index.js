@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const deasync = require('deasync')
 // const sharp = require('sharp')
 
 const SUPPORTED_TYPES = [ 'jpg', 'jpeg', 'png', 'webp', 'gif', 'svg' ]
