@@ -1,5 +1,5 @@
 {
-  "name": "img-loader",
+  "name": "@depmap/img-loader",
   "version": "1.0.0",
   "description": "Img loader for Depmap",
   "main": "index.js",

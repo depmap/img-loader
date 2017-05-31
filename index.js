@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 // const sharp = require('sharp')
 
-const SUPPORTED_TYPES = [ 'jpg', 'jpeg', 'png', 'webp', 'gif', 'svg' ]
+const SUPPORTED_TYPES = ['.jpg', '.jpeg', '.png', '.webp', '.gif', '.svg']
 
 module.exports = {
   meta: {
@@ -10,7 +10,9 @@ module.exports = {
     outExt: null,
     outDir: 'img'
   },
-  parse: (file, meta) => { return [] },
+  parse: (file, meta) => {
+    return []
+  },
   compile: {
     string: (str, opts) => {
       throw new Error('Not implemented')
@@ -29,7 +31,7 @@ module.exports = {
 }
 
 // verify sharp supports filetype
-function checkType (filetype) {
+function checkType(filetype) {
   let isSupported = false
   for (let supported in SUPPORTED_TYPES)
     if (filetype === supported) isSupported = true
